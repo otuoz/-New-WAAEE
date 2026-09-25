@@ -30,7 +30,7 @@ export const Route = createFileRoute("/contact-us")({
 });
 
 const CONTACTS = [
-  { Icon: Phone, label: "Telephone", value: "+234 706 365 0022", href: "tel:+2347063650022" },
+  { Icon: Phone, label: "Telephone", value: "234 806 614 3724", href: "tel:2348066143724" },
   { Icon: Phone, label: "Telephone", value: "+234 703 569 7549", href: "tel:+2347035697549" },
   { Icon: Mail, label: "Email", value: "waaeenig@gmail.com", href: "mailto:waaeenig@gmail.com" },
   { Icon: Globe, label: "Website", value: "www.waaee.com.ng", href: "https://www.waaee.com.ng" },
