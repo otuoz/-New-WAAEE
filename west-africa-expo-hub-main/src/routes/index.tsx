@@ -117,13 +117,13 @@ function Home() {
                   to="/book-a-stand"
                   className="inline-flex items-center justify-center gap-3 bg-primary px-8 py-5 font-display text-xs font-bold uppercase tracking-[0.14em] text-primary-foreground transition-transform duration-400 hover:-translate-y-1"
                 >
-                  Become an Exhibitor <ArrowRight className="h-4 w-4" aria-hidden />
+                  Book A Stand <ArrowRight className="h-4 w-4" aria-hidden />
                 </Link>
                 <Link
                   to="/become-a-partner"
                   className="inline-flex items-center justify-center gap-3 border border-white/35 px-8 py-5 font-display text-xs font-bold uppercase tracking-[0.14em] text-white transition-colors duration-400 hover:border-primary-light hover:text-primary-light"
                 >
-                  Sponsorship Opportunities
+                  Become A Partner
                 </Link>
               </div>
             </Reveal>

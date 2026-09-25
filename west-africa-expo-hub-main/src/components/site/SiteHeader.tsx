@@ -65,7 +65,7 @@ export function SiteHeader() {
             to="/book-a-stand"
             className="inline-flex items-center gap-2 bg-primary px-5 py-3 font-display text-xs font-bold uppercase tracking-[0.12em] text-primary-foreground transition-transform duration-300 hover:-translate-y-0.5"
           >
-            Exhibit Now <ArrowRight className="h-4 w-4" aria-hidden />
+            Book A Stand <ArrowRight className="h-4 w-4" aria-hidden />
           </Link>
         </nav>
 
