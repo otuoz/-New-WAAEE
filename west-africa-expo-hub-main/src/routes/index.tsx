@@ -91,7 +91,7 @@ function Home() {
             </Reveal>
             <Reveal delay={80}>
               <h1 className="section-title mt-6 text-[clamp(2.75rem,9vw,7rem)] text-white">
-                WAAEE <span className="text-primary-light">Expo</span>
+                WAAEE
               </h1>
             </Reveal>
             <Reveal delay={160}>
