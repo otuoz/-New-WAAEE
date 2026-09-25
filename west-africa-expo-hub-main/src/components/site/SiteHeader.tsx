@@ -97,11 +97,11 @@ export function SiteHeader() {
             </Link>
           ))}
           <Link
-            to="/book-a-stand"
+            to="/about-organizer"
             onClick={() => setOpen(false)}
             className="mt-5 inline-flex w-full items-center justify-center gap-2 bg-primary px-5 py-4 font-display text-xs font-bold uppercase tracking-[0.12em] text-primary-foreground"
           >
-            Exhibit Now <ArrowRight className="h-4 w-4" aria-hidden />
+            About the Organizer <ArrowRight className="h-4 w-4" aria-hidden />
           </Link>
         </nav>
       )}
