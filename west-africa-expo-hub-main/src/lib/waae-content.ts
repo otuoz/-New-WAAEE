@@ -34,7 +34,7 @@ export const EVENT = {
   heroDates: "Wednesday, March 17 – Friday, March 19, 2027",
   heroLocation: "Blue Roof Event Centre, LTV 8 Premises, Lateef Jakande Road, Alausa Ikeja, Lagos, Nigeria",
   venue: "Blue Roof Event Centre, LTV 8 Premises, Lateef Jakande Road, Alausa Ikeja, Lagos, Nigeria",
-  phone1: "+234 706 365 0022",
+  phone1: "+234 806 614 3724",
   phone2: "+234 703 569 7549",
   email: "waaeenig@gmail.com",
   website: "www.waaee.com.ng",
