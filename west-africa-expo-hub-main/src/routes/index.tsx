@@ -552,16 +552,10 @@ function Home() {
               <Reveal delay={200}>
                 <div className="mt-10 flex flex-col gap-3 sm:flex-row">
                   <a
-                    href="mailto:waaeenig@gmail.com?subject=Exhibitor%20enquiry%20-%20WAAEE%20Expo%202027"
+                    href="https://west-africa-expo-hub-main.vercel.app/book-a-stand"
                     className="inline-flex items-center justify-center gap-3 bg-secondary px-8 py-5 font-display text-xs font-bold uppercase tracking-[0.14em] text-secondary-foreground transition-transform duration-400 hover:-translate-y-1"
                   >
-                    Become an Exhibitor <ArrowRight className="h-4 w-4" aria-hidden />
-                  </a>
-                  <a
-                    href="mailto:waaeenig@gmail.com?subject=Sponsorship%20enquiry%20-%20WAAEE%20Expo%202027"
-                    className="inline-flex items-center justify-center gap-3 border border-white/40 px-8 py-5 font-display text-xs font-bold uppercase tracking-[0.14em] transition-colors duration-400 hover:border-secondary hover:text-secondary"
-                  >
-                    Sponsorship Opportunities
+                    Book A Stand <ArrowRight className="h-4 w-4" aria-hidden />
                   </a>
                 </div>
               </Reveal>
