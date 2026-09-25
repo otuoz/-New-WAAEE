@@ -1,5 +1,5 @@
 import { useRef, useState } from "react";
-import { ArrowRight, CheckCircle2, Loader2, AlertTriangle } from "lucide-react";
+import { ArrowRight, CheckCircle2, Loader2, AlertTriangle, X } from "lucide-react";
 
 import type { FormType } from "@/lib/submissions.functions";
 
@@ -124,24 +124,57 @@ export function ExpoForm({
   if (status === "success") {
     return (
       <div
-        role="status"
-        className="border-t-2 border-primary bg-card p-10 panel-shadow lg:p-14"
+        className="fixed inset-0 z-[100] flex items-center justify-center bg-black/50 px-4 backdrop-blur-sm"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="submission-success-title"
       >
-        <CheckCircle2 className="h-10 w-10 text-primary" aria-hidden />
-        <h3 className="mt-6 font-display text-xl font-bold uppercase tracking-tight text-charcoal">
-          Submission Received
+      <div className="relative w-full max-w-xl rounded-[2rem] bg-white p-8 text-center shadow-2xl sm:p-12">
+        <button
+          type="button"
+          onClick={() => setStatus("idle")}
+          aria-label="Close"
+          className="absolute right-6 top-6 text-gray-400 transition-colors hover:text-gray-700"
+        >
+        <X className="h-7 w-7" />
+        </button>
+        <div className="mx-auto flex h-24 w-24 items-center justify-center rounded-full bg-emerald-50">
+          <div className="flex h-16 w-16 items-center justify-center rounded-full bg-emerald-500">
+           <CheckCircle2 className="h-9 w-9 text-white" strokeWidth={3} />
+          </div>
+        </div>
+
+        <h3
+          id="submission-success-title"
+          className="mt-8 font-display text-3xl font-bold tracking-tight text-charcoal"
+        >
+          Request Submitted!
         </h3>
-        <p className="mt-4 max-w-xl text-base leading-relaxed text-muted-foreground">
-          {SUCCESS_MESSAGE}
+
+        <p className="mx-auto mt-5 max-w-md text-base leading-relaxed text-gray-500">
+          Your request was submitted successfully. One of our Customer Service
+          Executives will reach out to you soon. Thank you, and we look forward
+          to seeing you at WAAEE.
         </p>
+
         {submissionId ? (
-          <p className="mt-6 font-display text-xs font-bold uppercase tracking-[0.14em] text-charcoal">
+          <p className="mt-5 font-display text-xs font-bold uppercase tracking-[0.14em] text-charcoal">
             Reference: {submissionId}
           </p>
         ) : null}
+
+        <button
+          type="button"
+          onClick={() => setStatus("idle")}
+          className="mt-8 w-full rounded-xl bg-primary px-6 py-4 font-display text-sm font-bold uppercase tracking-[0.12em] text-white transition-all duration-200 hover:opacity-90 sm:w-auto sm:min-w-[220px]"
+        >
+          Done
+        </button>
       </div>
-    );
-  }
+    </div>
+  );
+
+}
 
   const inputClass =
     "mt-2 w-full border border-border bg-card px-4 py-3 text-sm text-charcoal outline-none transition-colors duration-200 focus:border-primary";
