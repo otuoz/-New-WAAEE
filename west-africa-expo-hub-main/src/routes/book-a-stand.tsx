@@ -62,36 +62,6 @@ function BookAStandPage() {
           imageAlt="Combine harvester working a grain field at sunset in West Africa"
         />
 
-        <section className="bg-stone py-24 lg:py-32">
-          <div className="mx-auto max-w-[1400px] px-5 lg:px-10">
-            <Reveal>
-              <p className="eyebrow text-primary">Why Exhibit</p>
-            </Reveal>
-            <Reveal delay={80}>
-              <h2 className="section-title mt-6 text-[clamp(2rem,4.4vw,3.5rem)] text-charcoal">
-                What Your Stand Delivers
-              </h2>
-            </Reveal>
-            <div className="stage mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-              {WHY_EXHIBIT.map(({ Icon, title, text }, i) => (
-                <Reveal key={title} delay={(i % 3) * 90}>
-                  <article className="depth-card h-full bg-card p-9 panel-shadow">
-                    <div className="flex items-start gap-5">
-                      <span className="grid h-12 w-12 shrink-0 place-items-center bg-primary text-primary-foreground">
-                        <Icon className="h-5 w-5" aria-hidden />
-                      </span>
-                      <h3 className="min-w-0 font-display text-base font-bold uppercase leading-snug tracking-tight text-charcoal">
-                        {title}
-                      </h3>
-                    </div>
-                    <p className="mt-5 text-sm leading-relaxed text-muted-foreground">{text}</p>
-                  </article>
-                </Reveal>
-              ))}
-            </div>
-          </div>
-        </section>
-
         <section className="bg-background py-24 lg:py-32">
           <div className="mx-auto max-w-[1400px] px-5 lg:px-10">
             <Reveal>
@@ -117,25 +87,6 @@ function BookAStandPage() {
                 </Reveal>
               ))}
             </ol>
-
-            <Reveal delay={120}>
-              <div className="mt-14 flex flex-col gap-3 sm:flex-row">
-                <a
-                  href="mailto:waaeenig@gmail.com?subject=Stand%20booking%20enquiry%20-%20WAAEE%20Expo%202027"
-                  className="inline-flex items-center justify-center gap-3 bg-primary px-8 py-5 font-display text-xs font-bold uppercase tracking-[0.14em] text-primary-foreground transition-transform duration-400 hover:-translate-y-1"
-                >
-                  Request the exhibitor pack <ArrowRight className="h-4 w-4" aria-hidden />
-                </a>
-                <a
-                  href={WHATSAPP_URL}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center gap-3 border border-charcoal/25 px-8 py-5 font-display text-xs font-bold uppercase tracking-[0.14em] text-charcoal transition-colors duration-400 hover:border-primary hover:text-primary"
-                >
-                  Chat on WhatsApp
-                </a>
-              </div>
-            </Reveal>
           </div>
         </section>
 

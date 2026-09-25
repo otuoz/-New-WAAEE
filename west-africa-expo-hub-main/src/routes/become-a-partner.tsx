@@ -77,60 +77,6 @@ function BecomeAPartnerPage() {
           imageAlt="Engineers inspecting a solar array beside farmland"
         />
 
-        <section className="bg-background py-24 lg:py-32">
-          <div className="mx-auto max-w-[1400px] px-5 lg:px-10">
-            <Reveal>
-              <p className="eyebrow text-primary">Opportunities</p>
-            </Reveal>
-            <Reveal delay={80}>
-              <h2 className="section-title mt-6 text-[clamp(2rem,4.4vw,3.5rem)] text-charcoal">
-                Partnership Packages
-              </h2>
-            </Reveal>
-            <div className="stage mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-              {PARTNERSHIPS.map(({ Icon, title, text }, i) => (
-                <Reveal key={title} delay={(i % 3) * 90}>
-                  <article className="depth-card h-full border-t-2 border-primary bg-card p-9 panel-shadow">
-                    <Icon className="h-7 w-7 text-primary" aria-hidden />
-                    <h3 className="mt-7 font-display text-base font-bold uppercase leading-snug tracking-tight text-charcoal">
-                      {title}
-                    </h3>
-                    <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{text}</p>
-                  </article>
-                </Reveal>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        <section className="bg-primary py-24 text-primary-foreground lg:py-32">
-          <div className="mx-auto max-w-[1400px] px-5 lg:px-10">
-            <Reveal>
-              <h2 className="section-title text-[clamp(1.8rem,4vw,3.25rem)]">
-                Packages are tailored to your objectives and confirmed in order of commitment.
-              </h2>
-            </Reveal>
-            <Reveal delay={120}>
-              <div className="mt-10 flex flex-col gap-3 sm:flex-row">
-                <a
-                  href="mailto:waaeenig@gmail.com?subject=Sponsorship%20enquiry%20-%20WAAEE%20Expo%202027"
-                  className="inline-flex items-center justify-center gap-3 bg-white px-8 py-5 font-display text-xs font-bold uppercase tracking-[0.14em] text-primary transition-transform duration-400 hover:-translate-y-1"
-                >
-                  Request the sponsorship pack <ArrowRight className="h-4 w-4" aria-hidden />
-                </a>
-                <a
-                  href={WHATSAPP_URL}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center gap-3 border border-white/40 px-8 py-5 font-display text-xs font-bold uppercase tracking-[0.14em] transition-colors duration-400 hover:bg-white/10"
-                >
-                  Speak to the team
-                </a>
-              </div>
-            </Reveal>
-          </div>
-        </section>
-
         <section id="partner-form" className="bg-stone py-24 lg:py-32">
           <div className="mx-auto max-w-[1100px] px-5 lg:px-10">
             <Reveal>
