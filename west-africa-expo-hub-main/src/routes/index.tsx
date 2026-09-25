@@ -557,6 +557,12 @@ function Home() {
                   >
                     Book A Stand <ArrowRight className="h-4 w-4" aria-hidden />
                   </a>
+                  <a
+                    href="https://api.whatsapp.com/send/?phone=2348066143724&text=Hello+WAAEE+Expo+team%2C+I+would+like+to+make+an+enquiry+about+WAAEE+Expo+2027+%2817%E2%80%9319+March+2027%2C+Lagos%29.&type=phone_number&app_absent=0"
+                    className="inline-flex items-center justify-center gap-3 bg-primary px-8 py-5 font-display border border-white text-xs font-bold uppercase tracking-[0.14em] text-primary-foreground transition-transform duration-400 hover:-translate-y-1"
+                  >
+                    Chat on Whatsapp <ArrowRight className="h-4 w-4" aria-hidden />
+                  </a>
                 </div>
               </Reveal>
             </div>
