@@ -122,6 +122,19 @@ export function SiteFooter() {
           </div>
         </div>
 
+        <div className="mt-6 pt 4 border-t border-white/10">
+            <p className="text-xs text-white/40">
+              Website crafted by {" "}
+              <a
+                href="https://otuoze.netlify.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white/60 transition-colors duration-200 hover:text-primary-light"
+              >
+                Otuoze
+              </a>
+            </p>
+        </div>
         <div className="mt-16 flex flex-col gap-3 border-t border-white/10 pt-8 font-display text-[11px] font-semibold uppercase tracking-[0.16em] text-white/45 sm:flex-row sm:items-center sm:justify-between">
           <p>© 2026 West Africa Agricultural &amp; Energy Expo</p>
           <p>Lagos · Nigeria · 17–19 March 2027</p>
