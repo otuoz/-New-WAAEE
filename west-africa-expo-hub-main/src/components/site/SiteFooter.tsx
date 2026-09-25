@@ -35,7 +35,7 @@ export function SiteFooter() {
               />
               <span>
                 <span className="block font-display text-lg font-extrabold uppercase tracking-tight">
-                  WAAEE Expo
+                  WAAEE
                 </span>
                 <span className="block font-display text-[10px] font-semibold uppercase tracking-[0.22em] text-white/55">
                   West Africa Agricultural &amp; Energy Expo
