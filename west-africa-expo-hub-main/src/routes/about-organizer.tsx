@@ -4,7 +4,7 @@ import { SiteHeader } from "@/components/site/SiteHeader";
 import { SiteFooter } from "@/components/site/SiteFooter";
 import { PageHero } from "@/components/site/PageHero";
 import { Reveal } from "@/components/site/Reveal";
-import hallImage from "@/assets/expo-hall.jpg";
+import hallImage from "@/assets/expo-hall.jpeg";
 
 export const Route = createFileRoute("/about-organizer")({
   head: () => ({

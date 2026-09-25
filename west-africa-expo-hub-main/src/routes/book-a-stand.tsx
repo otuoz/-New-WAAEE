@@ -7,7 +7,7 @@ import { PageHero } from "@/components/site/PageHero";
 import { Reveal } from "@/components/site/Reveal";
 import { ExpoForm } from "@/components/site/ExpoForm";
 import { SECTORS, WHY_EXHIBIT, WHATSAPP_URL } from "@/lib/waae-content";
-import heroImage from "@/assets/hero-harvest.jpg";
+import heroImage from "@/assets/hero-harvest.jpeg";
 
 export const Route = createFileRoute("/book-a-stand")({
   head: () => ({

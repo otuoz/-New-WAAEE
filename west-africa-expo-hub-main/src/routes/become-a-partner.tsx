@@ -7,7 +7,7 @@ import { PageHero } from "@/components/site/PageHero";
 import { Reveal } from "@/components/site/Reveal";
 import { ExpoForm } from "@/components/site/ExpoForm";
 import { WHATSAPP_URL } from "@/lib/waae-content";
-import solarImage from "@/assets/solar-farm.jpg";
+import solarImage from "@/assets/solar-farm.jpeg";
 
 export const Route = createFileRoute("/become-a-partner")({
   head: () => ({

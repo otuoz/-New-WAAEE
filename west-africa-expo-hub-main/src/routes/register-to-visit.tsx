@@ -7,7 +7,7 @@ import { PageHero } from "@/components/site/PageHero";
 import { Reveal } from "@/components/site/Reveal";
 import { ExpoForm } from "@/components/site/ExpoForm";
 import { VISITORS, WHATSAPP_URL } from "@/lib/waae-content";
-import logisticsImage from "@/assets/logistics.jpg";
+import logisticsImage from "@/assets/logistics.jpeg";
 
 export const Route = createFileRoute("/register-to-visit")({
   head: () => ({

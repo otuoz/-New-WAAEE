@@ -6,7 +6,7 @@ import { SiteFooter } from "@/components/site/SiteFooter";
 import { PageHero } from "@/components/site/PageHero";
 import { Reveal } from "@/components/site/Reveal";
 import { WHATSAPP_URL } from "@/lib/waae-content";
-import hallImage from "@/assets/expo-hall.jpg";
+import hallImage from "@/assets/expo-hall.jpeg";
 
 export const Route = createFileRoute("/contact-us")({
   head: () => ({

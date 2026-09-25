@@ -14,10 +14,10 @@ import {
 import { SiteHeader } from "@/components/site/SiteHeader";
 import { SiteFooter } from "@/components/site/SiteFooter";
 import { Reveal, Counter } from "@/components/site/Reveal";
-import heroImage from "@/assets/hero-harvest.jpg";
-import solarImage from "@/assets/solar-farm.jpg";
-import hallImage from "@/assets/expo-hall.jpg";
-import logisticsImage from "@/assets/logistics.jpg";
+import heroImage from "@/assets/hero-harvest.jpeg";
+import solarImage from "@/assets/solar-farm.jpeg";
+import hallImage from "@/assets/expo-hall.jpeg";
+import logisticsImage from "@/assets/logistics.jpeg";
 
 export const Route = createFileRoute("/")({
   head: () => ({

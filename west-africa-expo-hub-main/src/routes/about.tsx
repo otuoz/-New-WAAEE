@@ -5,8 +5,8 @@ import { SiteFooter } from "@/components/site/SiteFooter";
 import { PageHero } from "@/components/site/PageHero";
 import { Reveal, Counter } from "@/components/site/Reveal";
 import { OBJECTIVES, ZONES } from "@/lib/waae-content";
-import solarImage from "@/assets/solar-farm.jpg";
-import hallImage from "@/assets/expo-hall.jpg";
+import solarImage from "@/assets/solar-farm.jpeg";
+import hallImage from "@/assets/expo-hall.jpeg";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
