@@ -8,6 +8,7 @@ const QUICK = [
   { label: "Register To Visit", to: "/register-to-visit" },
   { label: "Become A Partner", to: "/become-a-partner" },
   { label: "Contact Us", to: "/contact-us" },
+  { label: "About the Organizer", to: "/about-organizer" },
 ] as const;
 
 const SOCIAL = [
