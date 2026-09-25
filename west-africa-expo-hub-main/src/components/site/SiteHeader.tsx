@@ -9,7 +9,7 @@ export const NAV = [
   { label: "Register To Visit", to: "/register-to-visit" },
   { label: "Become A Partner", to: "/become-a-partner" },
   { label: "Contact Us", to: "/contact-us" },
-  { label: "About the Organizer", to: "/about-organizer" },
+  // { label: "About the Organizer", to: "/about-organizer" },
 ] as const;
 
 export function SiteHeader() {
@@ -63,10 +63,10 @@ export function SiteHeader() {
             </Link>
           ))}
           <Link
-            to="/book-a-stand"
+            to="/about-organizer"
             className="inline-flex items-center gap-2 bg-primary px-5 py-3 font-display text-xs font-bold uppercase tracking-[0.12em] text-primary-foreground transition-transform duration-300 hover:-translate-y-0.5"
           >
-            Book A Stand <ArrowRight className="h-4 w-4" aria-hidden />
+            About the Organizer <ArrowRight className="h-4 w-4" aria-hidden />
           </Link>
         </nav>
 
