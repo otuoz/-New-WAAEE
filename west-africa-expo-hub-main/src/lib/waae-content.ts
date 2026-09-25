@@ -40,7 +40,7 @@ export const EVENT = {
   website: "www.waaee.com.ng",
 };
 
-export const WHATSAPP_NUMBER = "2347063650022";
+export const WHATSAPP_NUMBER = "2348066143724";
 export const WHATSAPP_MESSAGE =
   "Hello WAAEE Expo team, I would like to make an enquiry about WAAEE Expo 2027 (17–19 March 2027, Lagos).";
 export const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
