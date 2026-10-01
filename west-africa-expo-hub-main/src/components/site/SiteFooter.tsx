@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { Linkedin, Facebook, Twitter, Instagram, Phone, Mail, Globe, MapPin, Tiktok } from "lucide-react";
+import { Linkedin, Facebook, Twitter, Instagram, Phone, Mail, Globe, MapPin } from "lucide-react";
 
 const QUICK = [
   { label: "Home", to: "/" },
@@ -11,9 +11,23 @@ const QUICK = [
   { label: "About the Organizer", to: "/about-organizer" },
 ] as const;
 
+const TikTok = () => (
+  <svg 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2" 
+    strokeLinecap="round" 
+    strokeLinejoin="round" 
+    className="w-5 h-5" // Matches typical default Lucide sizing
+  >
+    <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5" />
+  </svg>
+);
+
 const SOCIAL = [
   { label: "Instagram", Icon: Instagram },
-  { label: "TikTok", Icon: Tiktok },
+  { label: "TikTok", Icon: TikTok },
 ];
 
 export function SiteFooter() {
