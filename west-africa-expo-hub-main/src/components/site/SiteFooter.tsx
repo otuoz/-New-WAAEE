@@ -26,8 +26,8 @@ const TikTok = () => (
 );
 
 const SOCIAL = [
-  { label: "Instagram", Icon: Instagram, href: "https://instagram.com" },
-  { label: "TikTok", Icon: TikTok, href: "https://tiktok.com" },
+  { label: "Instagram", Icon: Instagram, href: "https://www.instagram.com/waaeenig/" },
+  { label: "TikTok", Icon: TikTok, href: "https://www.tiktok.com/@waaeexpo?is_from_webapp=1&sender_device=pc" },
 ];
 
 export function SiteFooter() {
