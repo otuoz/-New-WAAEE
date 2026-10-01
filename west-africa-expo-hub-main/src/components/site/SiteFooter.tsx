@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { Linkedin, Facebook, Twitter, Instagram, Phone, Mail, Globe, MapPin } from "lucide-react";
+import { Linkedin, Facebook, Twitter, Instagram, Phone, Mail, Globe, MapPin, Tiktok } from "lucide-react";
 
 const QUICK = [
   { label: "Home", to: "/" },
@@ -12,10 +12,8 @@ const QUICK = [
 ] as const;
 
 const SOCIAL = [
-  { label: "LinkedIn", Icon: Linkedin },
-  { label: "Facebook", Icon: Facebook },
-  { label: "X", Icon: Twitter },
   { label: "Instagram", Icon: Instagram },
+  { label: "TikTok", Icon: Tiktok },
 ];
 
 export function SiteFooter() {
