@@ -26,8 +26,8 @@ const TikTok = () => (
 );
 
 const SOCIAL = [
-  { label: "Instagram", Icon: Instagram },
-  { label: "TikTok", Icon: TikTok },
+  { label: "Instagram", Icon: Instagram, href: "https://instagram.com" },
+  { label: "TikTok", Icon: TikTok, href: "https://tiktok.com" },
 ];
 
 export function SiteFooter() {
@@ -121,10 +121,10 @@ export function SiteFooter() {
             </ul>
 
             <div className="mt-8 flex gap-3">
-              {SOCIAL.map(({ label, Icon }) => (
+              {SOCIAL.map(({ label, Icon, href }) => (
                 <a
                   key={label}
-                  href="https://www.waaee.com.ng"
+                  href={href}
                   aria-label={label}
                   className="grid h-10 w-10 place-items-center border border-white/20 text-white/70 transition-colors duration-300 hover:border-secondary hover:text-secondary"
                 >
